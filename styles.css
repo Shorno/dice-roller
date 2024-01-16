@@ -5,20 +5,20 @@
 .container{
     font-family: "monospace", serif;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2em;
     font-weight: bold;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
-h1{
-
-    padding: 100px;
+#heading{
+    font-size: 2em;
+    font-family: monospace;
 }
 #diceText{
-    font-family: Arial, sans-serif;
+    font-family: monospace;
     margin: 3rem;
-    color: hotpink;
+    color: #e34391;
 }
 #diceImg img{
     height: 150px;
@@ -26,9 +26,15 @@ h1{
     margin: 10px;
     border-radius: 20px;
 }
-
+label{
+    padding-top: 30px;
+    font-family: monospace;
+}
 input{
     border-radius: 10px;
     text-align: center;
-    width: fit-content;
+    font-family: monospace;
+}
+#inputField{
+    padding-bottom: 20px;
 }

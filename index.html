@@ -8,9 +8,13 @@
 </head>
 <body>
 <div class="container">
-  <h1>Test you luck</h1>
-  <label for="numOfDices">Enter number of dices: </label>
-  <input class="" id="numOfDices" type="number" min='1' value="1">
+  <h1 id="heading">Test you luck</h1>
+  <label for="numOfDices">Enter number: </label> <br>
+    <br>
+    <div id="inputField">
+        <input placeholder="Enter number of dices" class="" id="numOfDices" type="number" min='1' value="1">
+
+    </div>
   <button class="btn btn-primary btn-lg" onclick="rollDiceFun()">Roll Dice</button>
   <div id="diceText"></div>
   <div class="img-thumbnail" id="diceImg"></div>
